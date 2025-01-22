@@ -57,10 +57,14 @@ body {
 .cards__single-card--primary-color-2,
 .cards__single-card--primary-color-3 {
     padding: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: calc(25rem/16);
 }
 
 .cards__icon {
     display: block;
+    max-width: calc(64rem/16);
 
 }
 
@@ -68,7 +72,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: calc(25rem/16);
-    margin-top: 35px;
 }
 
 .cards__header-text {
@@ -76,6 +79,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: calc(40rem/16);
+    line-height: 48px;
     color: var(--color-neutral-2);
 }
 
@@ -98,6 +102,12 @@ body {
     border: none;
 }
 
+.cards__iteams {
+    display: flex;
+    flex-direction: column;
+    gap: calc(35rem/16); ;
+}
+
 .cards__button--primary-color-1 {
     color: var(--color-primary-1);
 }
@@ -118,7 +128,15 @@ body {
         grid-template-columns: 1fr 1fr 1fr;
         grid-auto-flow: row;
         max-width: calc(920rem/16);
+    }
 
+    .cards__single-card--primary-color-1,
+    .cards__single-card--primary-color-2,
+    .cards__single-card--primary-color-3{
+        height: calc(500rem/16);
+        gap: 0;
+        justify-content: space-between;
+        
     }
 
     .cards__single-card--primary-color-1 {
@@ -140,21 +158,18 @@ body {
         cursor: pointer;
         color: var(--color-neutral-1);
         outline: 2px solid var(--color-neutral-1);
-        padding: 12px 31.5px;
     }
     .cards__button--primary-color-2:hover {
         background-color: var(--color-primary-2);
         cursor: pointer;
         color: var(--color-neutral-1);
         outline: 2px solid var(--color-neutral-1);
-        padding: 12px 31.5px;
     }
     .cards__button--primary-color-3:hover {
         background-color: var(--color-primary-3);
         cursor: pointer;
         color: var(--color-neutral-1);
         outline: 2px solid var(--color-neutral-1);
-        padding: 12px 31.5px;
     }
 
 }
