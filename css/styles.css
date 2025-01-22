@@ -28,13 +28,13 @@ body {
     height:100vh; /* use 100% of the height of the viewport */
     display:grid;             
     place-items: center;
-
+    align-items: center;
+    background-color: var(color-neutral-1);
 }
 
 .cards {
     margin: 88px 24px;
     max-width: 327px;
-
 }
 
 .cards__single-card--primary-color-1 {
@@ -129,6 +129,7 @@ body {
         grid-auto-flow: row;
         max-width: calc(920rem/16);
         margin: 24px;
+        margin-top: 66px;
     }
 
     .cards__single-card--primary-color-1,
