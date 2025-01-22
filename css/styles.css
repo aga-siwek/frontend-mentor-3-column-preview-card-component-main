@@ -128,6 +128,7 @@ body {
         grid-template-columns: 1fr 1fr 1fr;
         grid-auto-flow: row;
         max-width: calc(920rem/16);
+        margin: 24px;
     }
 
     .cards__single-card--primary-color-1,
