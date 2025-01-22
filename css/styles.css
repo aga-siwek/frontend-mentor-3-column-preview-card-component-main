@@ -129,7 +129,7 @@ body {
         grid-auto-flow: row;
         max-width: calc(920rem/16);
         margin: 24px;
-        margin-top: 66px;
+        margin-top: 86px;
     }
 
     .cards__single-card--primary-color-1,
