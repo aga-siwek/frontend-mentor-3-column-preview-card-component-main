@@ -21,6 +21,7 @@ h6 {
 html {
     font-family: "Lexend Deca", serif;
     font-weight: 400;
+    background-color: var(color-neutral-2);
 }
 
 body {
@@ -29,7 +30,7 @@ body {
     display:grid;             
     place-items: center;
     align-items: center;
-    background-color: var(color-neutral-1);
+
 }
 
 .cards {
